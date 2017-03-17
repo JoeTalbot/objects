@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Organic Pumpkin</title>
+	<link rel="stylesheet" href="../tgt/style/dynamicDiscounts.css">
+</head>
+
+<body>
+	<div id="panel">
+		<div id="pulse"></div>
+		<div id="superDeal">
+			<h1>Hidden deal, woot!</h1>
+			<div>Overstock <br/>50% off <br/><button>+ Add</button></div>
+
+		</div>
+	</div>
+</body>
+<script>
+	var pulseNode = document.getElementById("pulse");
+	pulseNode.onclick = function() {
+		pulseNode.parentNode.removeChild(pulse);
+		document.getElementById("superDeal").style.display = "block";
+	};
+
+	var addButton = document.getElementsByTagName("button")[0];
+	addButton.onclick = function() {
+		this.style.backgroundColor = "green";
+		this.innerText = "added"
+	}
+</script>
+
+</html>

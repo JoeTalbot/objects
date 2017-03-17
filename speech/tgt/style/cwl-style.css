@@ -1,0 +1,66 @@
+body {
+    background-color: white;
+}
+
+#panel {
+    height: 215px;
+    width: 300px;
+    border: 1px solid black;
+}
+
+#header {
+    background: url("cwllogo.svg") left top no-repeat;
+    width: auto;
+    height: 32px;
+    margin: 12px 0 0 10px;
+    background-size: 140px 32px;
+}
+
+#header span {
+    float: right;
+    margin: 4px 18px 0 0;
+    color: red;
+    font-size: 18px;
+}
+
+p {
+    text-align: center;
+    margin: .4em 0;
+    font: 12px/1 HelveticaNeueforTargetWeb-Lt
+}
+
+#loading {
+    background-image: url("loading-fast-lrg.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    height: 100px;
+    padding-top: 60px;
+}
+
+#content {
+    width: auto;
+    height: 100px;
+    margin-top: 22px;
+    display: none;
+}
+
+#offer-title {
+    font: 22px/1 HalisGR-Light;
+    color: #4a4a4a;
+    margin: 0 0 10px;
+    text-align: center;
+}
+
+#addButton {
+    width: auto;
+    height: 50px;
+    text-align: center;
+}
+
+#addButtonText {
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    display: inline-block;
+}

@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Special K</title>
+    <link rel="stylesheet" href="../tgt/style/cwl-style.css">
+</head>
+
+<body>
+    <div id="panel">
+        <div id="header"><span id="discount"></span></div>
+        <div id="loading"></div>
+        <div id="content">
+            <h2 id="offer-title"></h2>
+            <p>Expires: <span id="expiration"></span></p>
+            <p id="offer-subtitle"></p>
+            <p id="offer-exclusion"></p>
+        </div>
+        <div id="addButton">
+            <div id="addButtonText"></div>
+        </div>
+    </div>
+</body>
+<script src="../tgt/js/cwl-panel.js"></script>
+
+<script>
+    // Annies Fruit wand: 114622
+    // Suja: 112657
+    var offer = {
+        offerId: '114725',
+        value: '15% off',
+        title: 'Special K Protein Snack Bars',
+        exp: '03/26/2017',
+        subtitle: 'Chocolate Cherry Nut',
+        excl: 'Limit 5 per customer'
+    };
+
+    setPanelDataByObject(offer);
+</script>
+
+</html>

@@ -1,0 +1,41 @@
+#panel {
+    height: 215px;
+    width: 300px;
+    border: 1px solid black;
+    background-color: burlywood;
+}
+
+#pulse {
+    background-image: url("../assets/loading-fast-lrg.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    height: 150px;
+    padding-top: 80px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#superDeal {
+    background-image: url("../assets/bullseye.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: none;
+    height: 190px;
+}
+
+#superDeal div {
+    font: 20px/1 HalisGR-Light;
+    float: right;
+}
+
+button {
+    color: white;
+    background-color: red;
+    width: 80px;
+    height: 40px;
+    font-size: 18px;
+    margin-top: 6px;
+}
